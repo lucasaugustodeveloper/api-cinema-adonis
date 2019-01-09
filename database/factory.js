@@ -82,7 +82,7 @@ Factory.blueprint('App/Models/MovieShowing', async (faker, i, data) => {
 Factory.blueprint('App/Models/MovieShowingTime', async (faker, i, data) => {
   return {
     movie_showing_id: data.movie_showing_id,
-    hour_to_show: `${faker.hour()}:00`
+    hour_to_show: `${faker.hour({ twentyfour: true })}:00`
   }
 })
 
