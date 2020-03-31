@@ -1,0 +1,29 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    command: yarn run dev
+    ports:
+      - "${PORT}:${PORT}"
+    depends_on:
+      - db
+    links:
+      - db
+    volumes:
+      - .:/app
+      - /app/node_modules
+    env_file:
+      - .env
+
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
