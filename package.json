@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "adonis serve --dev",
-    "migrate": "adonis migrate:run",
-    "migrate:status": "adonis migrate:status",
+    "migrate": "adonis migration:run",
+    "migrate:status": "adonis migration:status",
     "seed": "adonis seed",
     "start": "node server.js",
     "test": "node ace test"
