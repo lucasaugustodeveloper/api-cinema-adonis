@@ -16,6 +16,13 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
+Route.get('/', () => {
+  return {
+    message: 'Enjoy the silence...',
+    version: '0.1.0'
+  }
+})
+
 Route.group(() => {
   Route.post('login', 'AuthController.login')
   Route.post('register', 'AuthController.register')
