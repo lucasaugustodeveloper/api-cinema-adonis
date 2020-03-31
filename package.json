@@ -5,6 +5,10 @@
   "description": "The fullstack application boilerplate for Adonisjs",
   "main": "index.js",
   "scripts": {
+    "dev": "adonis serve --dev",
+    "migrate": "adonis migrate:run",
+    "migrate:status": "adonis migrate:status",
+    "seed": "adonis seed",
     "start": "node server.js",
     "test": "node ace test"
   },
@@ -28,7 +32,9 @@
     "@adonisjs/shield": "^1.0.8",
     "mysql": "^2.16.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@adonisjs/cli": "^4.0.12"
+  },
   "autoload": {
     "App": "./app"
   }
