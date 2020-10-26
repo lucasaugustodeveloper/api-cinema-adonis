@@ -20,7 +20,9 @@ class AuthController {
 
     await userInstance.save()
 
-    return response.json(userInstance)
+    const { email } = userInstance;
+
+    return response.json({ email })
   }
 
   async profile({ request, response, auth }) {
