@@ -180,19 +180,19 @@
     haye "^2.0.1"
     lodash "^4.17.5"
 
-"@adonisjs/session@^1.0.27":
-  version "1.0.29"
-  resolved "https://registry.yarnpkg.com/@adonisjs/session/-/session-1.0.29.tgz#4f397d28afe2c20ba88b1c1d431c56b783461ed6"
-  integrity sha512-dr8P/WUrt50uLZt5SZ8C1uhp4FXzGPh1dNUeS0Lur95ftzHri6S+suBXQ4DM+sNiZQn7iaVylYwsFqUlOkp8gQ==
+"@adonisjs/session@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/session/-/session-1.1.0.tgz#cdc613eceeed77374719e5c2a1f5d706f4df5b64"
+  integrity sha512-phbTPevvmVcWgq1BXj5VM7MR5+MzXlQgl6Dc0zr8jfftYBscxoiirSaISJYWCwNO6HrPQon54a1/gx9Jr6ebGQ==
   dependencies:
     "@adonisjs/generic-exceptions" "^2.0.1"
     bson "^1.1.0"
     debug "^4.1.0"
-    fs-extra "^7.0.0"
+    fs-extra "^9.1.0"
     lodash "^4.17.11"
     ms "^2.1.1"
     type-of-is "^3.5.1"
-    uuid "^3.3.2"
+    uuid "^8.3.2"
 
 "@adonisjs/shield@^1.0.8":
   version "1.0.8"
@@ -2404,7 +2404,7 @@ fs-extra@^7.0.0:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
-fs-extra@^9.0.1:
+fs-extra@^9.0.1, fs-extra@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
   integrity sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
@@ -5566,7 +5566,7 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.521.0, snyk@^1.521.0:
+snyk@^1.521.0:
   version "1.521.0"
   resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.521.0.tgz#d81e0dba1872e262c6a3e20bed533122204fd32c"
   integrity sha512-eOjyyWJerI8/2hU/pI8GQDYKFrf+ACl+Bw1U0xDlT733p+YidYXsc5flJykR6uPglb756/2HZQCujfX3ViUTdQ==
