@@ -39,10 +39,10 @@
     pluralize "^8.0.0"
     slash "^3.0.0"
 
-"@adonisjs/auth@^3.0.7":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@adonisjs/auth/-/auth-3.1.0.tgz#039c2bd60d959d3bb5e6e49ec29825ad54b165d8"
-  integrity sha512-NLy0Jjmb7/Vmh5GvL7ma8qrSoC8oW32lcz6T5FRDMnXFs59pfBS0Mej0Try6iY/aGGFMKiLVVOoGzhgWgeX8eA==
+"@adonisjs/auth@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/auth/-/auth-3.2.0.tgz#51c2c864c7cdb8c06ed483e73509d2ca15715261"
+  integrity sha512-Bawnpg8BaPrVmG1QhX3egw2SfYOtrOcMpn2q/ck58J9A4WUJAk1LZWXIeu2AF0jrASZuXlmdy4HIMFpl8NKVZg==
   dependencies:
     "@adonisjs/generic-exceptions" "^2.0.1"
     basic-auth "^2.0.1"
@@ -51,7 +51,7 @@
     lodash "^4.17.11"
     ms "^2.1.1"
     resetable "^1.0.3"
-    uuid "^3.3.2"
+    uuid "^8.3.2"
 
 "@adonisjs/bodyparser@^2.0.5":
   version "2.0.9"
@@ -5566,7 +5566,7 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.521.0, snyk@^1.521.0:
+snyk@^1.521.0:
   version "1.521.0"
   resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.521.0.tgz#d81e0dba1872e262c6a3e20bed533122204fd32c"
   integrity sha512-eOjyyWJerI8/2hU/pI8GQDYKFrf+ACl+Bw1U0xDlT733p+YidYXsc5flJykR6uPglb756/2HZQCujfX3ViUTdQ==
