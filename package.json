@@ -29,7 +29,7 @@
     "@adonisjs/fold": "4.1.0",
     "@adonisjs/framework": "5.0.13",
     "@adonisjs/ignitor": "2.0.8",
-    "@adonisjs/lucid": "6.3.0",
+    "@adonisjs/lucid": "16.3.2",
     "@adonisjs/session": "1.1.0",
     "@adonisjs/shield": "1.1.0",
     "mysql": "2.18.1",
