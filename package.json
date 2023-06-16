@@ -31,7 +31,7 @@
     "@adonisjs/ignitor": "2.0.8",
     "@adonisjs/lucid": "6.3.0",
     "@adonisjs/session": "1.1.0",
-    "@adonisjs/shield": "1.1.0",
+    "@adonisjs/shield": "7.1.1",
     "mysql": "2.18.1",
     "snyk": "1.809.0"
   },
