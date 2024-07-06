@@ -178,17 +178,17 @@
     type-of-is "^3.5.1"
     uuid "^3.3.2"
 
-"@adonisjs/shield@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-1.0.8.tgz#c36e6ca9bc4afee2a8610b8ae380e43ec2284c26"
-  integrity sha512-bFPuDIlChrp7ihbwjl8OVCw/b57pG0yn/1rrzFXP2XBpIUTbOFdQxzDlvydHxsyg90/pAup/4qtmdulywczg2g==
+"@adonisjs/shield@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/shield/-/shield-1.1.0.tgz#3bef5b0febc4cdedac8c5f8888b46c70190e2caf"
+  integrity sha512-3qVwnLTeTk5w0Agi7xuQKj7r7QeA1yFXy0QfpjTIYIzQVy9QTk3DgIK5ZvGtr/2/ESHVosyOrCGr+kQDjtcBhA==
   dependencies:
     "@adonisjs/generic-exceptions" "^2.0.1"
     csrf "^3.0.6"
     node-cookie "^2.1.1"
     node-csp "^1.0.1"
     node-guard "^1.0.0"
-    uuid "^3.3.2"
+    uuid "^8.3.2"
 
 "@types/tinycolor2@^1.4.0":
   version "1.4.2"
@@ -3632,6 +3632,11 @@ uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8flags@^3.1.1:
   version "3.1.3"
